@@ -1,6 +1,3 @@
 site_name: Unofficial Minetest API documentation
 
-nav:
-  - Home : index.md
-
 theme: readthedocs
