@@ -1,6 +1,6 @@
 # Unofficial Minetest API documentation
 
-This github repo contains the source files for the site and the built HTML files waiting to be deployed.<br/>
+This github repo contains the source files for the website.<br/>
 Feel free to make a pull request, not on the gh-pages branch though.
 
 # Editing the site
