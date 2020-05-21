@@ -1,5 +1,7 @@
-# This site is under construction!
-This is very unamusing, I know.
+# Minetest Lua modding API reference
+This website was made with the goal of being a solid documentation for Minetest and it's modding API. If you find something to be missing from the documentation, feel free to make a pull request on this website's [GitHub repository](https://github.com/WattanaGaming/Minetest-docs)
 
-While you wait for me to at least finish index.md(this page), you can contribute to the site's [GitHub repository](https://github.com/WattanaGaming/Minetest-docs) and help improve this site.
+## Introduction to mods
+In Minetest, contents and features can be added using Lua scripts in a runtine-loaded mod; a self-contained bunch of scripts, textures and other related files, which is loaded by and interfaces with Minetest.
 
+Mods are contained and ran solely on the server side. Definitions and media files are automatically transferred to the client.
