@@ -34,7 +34,7 @@ A settings file that provides information about the mod.
 
 - `name`: The mod name. Allows Minetest to determine the mod name even if the directory is wrongly named.
 - `description`: Description of the mod to be shown in the Mods tab of the main menu.
-- `depends`: A comma separated list of dependencies. These are mods that must be loaded before this mod
+- `depends`: A comma separated list of dependencies. These are mods that must be loaded before this mod.
 - `optional_depends`: A comma separated list of optional dependencies. Like a dependency, but no error if the mod doesn't exist.
 
 ### screenshot.png
@@ -55,4 +55,18 @@ Optional dependencies can be defined by appending a question mark to a single mo
 This file is used if there is no description in `mod.conf`. It contains a description to be shown in the Mods tab of the main menu.
 
 ### settingtypes.txt
-The format is documented in builtin/settingtypes.txt. It is parsed by the main menu settings dialogue to list mod-specific settings in the "Mods" category.
+The format is documented in `builtin/settingtypes.txt`. It is parsed by the main menu settings dialogue to list mod-specific settings in the "Mods" category.
+
+### init.lua
+This is the main Lua script of the mod that Minetest executs when loading the said mod. Subsequent execution depends on Minetest calling the registered callbacks.
+
+`minetest.settings` can be used to read custom or existing settings at load time, if necessary.
+
+### models
+Models for entities or meshnodes.
+
+### textures, sounds, media
+Media files (textures, sounds, whatever) that will be transferred to the client and will be available for use by the mod.
+
+### locale
+Translation files for the clients.
