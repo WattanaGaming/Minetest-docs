@@ -92,8 +92,4 @@ The `:` prefix can also be used for maintaining backwards compatibility.
 ### Example
 In the mod `experimental`, there is the ideal item/node/entity name `tnt`. So the name should be `experimental:tnt`.
 
-Any mod can redefine `experimental:tnt `by using the name
-```
-:experimental:tnt
-```
-when registering it. That mod is required to have experimental as a dependency.
+Any mod can redefine `experimental:tnt` by using the name `:experimental:tnt` when registering it. That mod is required to have experimental as a dependency.
