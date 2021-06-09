@@ -1,7 +1,13 @@
 # Home
-This website was made with the goal of providing a (hopefully) solid documentation for Minetest and it's modding API. If you find something to be missing from the documentation or does not make sense, feel free to make a pull request on this website's [GitHub repository](https://github.com/WattanaGaming/Minetest-docs)
+Welcome to ~~my~~ our Minetest docs! This documentation is made because `lua_api.txt` is a freaking maze and the Minetest GitLab is just a markdown formatted(& split) version of `lua_api.txt`.
 
-## What are mods?
-In Minetest, contents and features can be added using Lua scripts in a runtine-loaded mod; a self-contained bunch of scripts, textures and other related files, which is loaded by and interfaces with Minetest.
+## Contributing
+Something's missing? Found typo(s)? Poor choice of words? Feel free to [submit issues](https://github.com/WattanaGaming/Minetest-docs/issues/new) on the GitHub repository of this doc or [make a pull request](https://github.com/WattanaGaming/Minetest-docs/compare).
 
-Mods are contained and ran solely on the server side. Definitions and media files are automatically transferred to the client.
+## Useful links
+* Minetest website <http://www.minetest.net/>
+* Developer Wiki: <http://dev.minetest.net/>
+* (Unofficial) Minetest Modding Book by rubenwardy: <https://rubenwardy.com/minetest_modding_book/>
+
+!!! note
+    For the complete documentation of Minetest's APIs, read the `lua_api.txt` file included with Minetest or visit <https://minetest.gitlab.io/minetest/>

@@ -1,6 +1,14 @@
-site_name: Unofficial Minetest API Documentation
-site_description: An unofficial documentation for Minetest API.
+site_name: Minetest Community Docs
+site_url:
+site_description: An unofficial documentation for Minetest
 site_author: Atirut Wattanamongkol
 
 repo_url: https://github.com/WattanaGaming/Minetest-docs
-theme: readthedocs
+
+theme:
+  name: readthedocs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tilde
+  - pymdownx.superfences
