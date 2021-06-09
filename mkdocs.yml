@@ -6,7 +6,7 @@ site_author: Atirut Wattanamongkol
 repo_url: https://github.com/WattanaGaming/Minetest-docs
 
 theme:
-  name: readthedocs
+  name: material
 
 markdown_extensions:
   - admonition
