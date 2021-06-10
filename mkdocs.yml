@@ -3,12 +3,26 @@ site_url:
 site_description: An unofficial documentation for Minetest
 site_author: Atirut Wattanamongkol
 
+repo_name: WattanaGaming/Minetest-docs
 repo_url: https://github.com/WattanaGaming/Minetest-docs
 
 theme:
   name: material
+  palette:
+    primary: green
+    accent: light-green
+  features:
+    - navigation.instant
+    - navigation.top
+
+plugins:
+  - search
+  - git-revision-date-localized
 
 markdown_extensions:
   - admonition
   - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - footnotes
