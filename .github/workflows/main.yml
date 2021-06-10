@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: atirut-w/mkdocs-deploy
+      - uses: atirut-w/mkdocs-deploy@master
