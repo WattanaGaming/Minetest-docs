@@ -3,8 +3,8 @@ site_url:
 site_description: An unofficial documentation for Minetest
 site_author: Atirut Wattanamongkol
 
-repo_name: WattanaGaming/Minetest-docs
-repo_url: https://github.com/WattanaGaming/Minetest-docs
+repo_name: atirut-w/minetest-docs
+repo_url: https://github.com/atirut-w/minetest-docs
 
 theme:
   name: material
